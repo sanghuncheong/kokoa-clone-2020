@@ -1,0 +1,26 @@
+.badge {
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+}
+.badge--no-number {
+  width: 8px;
+  height: 8px;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+}
+
+.badge--no-number--close {
+  width: 6px;
+  height: 6px;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
